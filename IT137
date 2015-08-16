@@ -1,0 +1,144 @@
+<html>
+<head>
+	<title>Registration Form</title>
+	<link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<div id="main">
+
+	<h1>Saint James High School</h1>
+  	<p>Freshmen Registration Form</p> <h2 style="color: #FF0000; font-size: 13px;">*Required field</h2>
+      
+	<br><bf>Full name: </bf><req>*</req><br>
+		<input type ="text" name="name"><br><br> 
+
+	<bf>Date of Birth: </bf><req>*</req><br>
+		<select>
+			<option>
+			<option>January
+			<option>February
+			<option>March
+			<option>April
+			<option>May
+			<option>June
+			<option>July
+			<option>August
+			<option>September
+			<option>October
+			<option>November
+			<option>December
+		</select> 
+
+		<select>
+			<option>
+			<option>1
+			<option>2
+			<option>3
+			<option>4
+			<option>5
+			<option>6
+			<option>7
+			<option>8
+			<option>9
+			<option>10
+			<option>11
+			<option>12
+			<option>13
+			<option>14
+			<option>15
+			<option>16
+			<option>17
+			<option>18
+			<option>19
+			<option>20
+			<option>21
+			<option>22
+			<option>23
+			<option>24
+			<option>25
+			<option>26
+			<option>27
+			<option>28
+			<option>29
+			<option>30
+		</select> 
+
+		<select>
+			<option>
+			<option>1990
+			<option>1991
+			<option>1992
+			<option>1993
+			<option>1994
+			<option>1995
+			<option>1996
+			<option>1997
+			<option>1998
+			<option>1999
+			<option>2000
+			<option>2001
+			<option>2002
+			<option>2003
+			<option>2004
+			<option>2005
+		</select><br><br>
+
+	<bf>Place of Birth: </bf><req>*</req><br>
+		<input type ="text" name="place"><br><br>
+
+	<bf>Age: </bf><req>*</req><br>
+	 	<input type ="text" name="age"><br><br> 
+
+	<bf>Gender: </bf><req>*</req><br>
+		<input type="radio" name="gender" value="male">Male <br>
+		<input type="radio" name="gender" value="female">Female<br><br>
+
+	<bf>Address: </bf><req>*</req><br>
+		<input type ="text" name="address"><br><br>
+
+	<bf>School graduated: </bf><req>*</req><br>
+		<input type ="text" name="school"><br><br>
+
+	<bf>Year Attended: </bf> <req>*</req><br><input type ="text" name="address"><br><br>
+
+	<bf>Email address: </bf><br> 
+		<input type ="text" name="email"><br><br>
+
+	<bf>Contact Number: </bf><req>*</req> <br>
+		<input type ="text" name="contact"><br><br>
+
+	<bf>Hobbies/Interests: </bf><br>
+		<input type="checkbox" name="hobbies" value="outdoor">Sports<br>
+		<input type="checkbox" name="hobbies" value="singing">Singing<br>
+		<input type="checkbox" name="hobbies" value="dancing">Dancing<br>
+		<input type="checkbox" name="hobbies" value="reading">Reading books<br>
+		<input type="checkbox" name="hobbies" value="writing">Writing stories and articles<br>
+		<input type="checkbox" name="hobbies" value="instruments">Playing Musical Instruments<br>
+		<input type="checkbox" name="hobbies" value="others">Others, please specify.<br>
+		<input type ="text" name="others"><br><br> 
+
+	<bf>Civil Status: </bf><br>
+		<select>
+			<option>
+			<option>Single
+			<option>Married
+			<option>Separated
+			<option>Widow
+			<option>It's complicated
+		</select> <br><br>
+
+	<bf>Name of Parent/Guardian: </bf><req>*</req>
+		<br><input type ="text" name="contact"><br><br>
+
+	<bf>Contact Number: </bf> <req>*</req>
+		<br><input type ="text" name="contact"><br><br>
+
+<br><input type="submit" value="Submit">
+<input type="reset" value="Clear"> <br><br>
+
+</div>
+</body>
+</html>
